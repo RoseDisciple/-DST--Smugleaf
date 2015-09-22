@@ -30,8 +30,8 @@ local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
 -- The character select screen lines
-STRINGS.CHARACTER_TITLES.smugleaf = "Abel the Betrayed"
-STRINGS.CHARACTER_NAMES.smugleaf = "Abel"
+STRINGS.CHARACTER_TITLES.smugleaf = "Smugleaf the Scriptworthy"
+STRINGS.CHARACTER_NAMES.smugleaf = "Smugleaf"
 STRINGS.CHARACTER_DESCRIPTIONS.smugleaf = "*Perk 1\n*Perk 2\n*Perk 3"
 STRINGS.CHARACTER_QUOTES.smugleaf = "\"Quote\""
 
@@ -39,16 +39,16 @@ STRINGS.CHARACTER_QUOTES.smugleaf = "\"Quote\""
 STRINGS.CHARACTERS.SMUGLEAF = require "speech_smugleaf"
 
 -- The character's name as appears in-game 
-STRINGS.NAMES.SMUGLEAF = "Abel"
+STRINGS.NAMES.SMUGLEAF = "Smugleaf"
 
 -- The default responses of examining the character
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.SMUGLEAF = 
 {
-	GENERIC = "♥♥ Wow. Abel is so cute like that ~! ♥♥",
-	ATTACKER = "That Abel looks shifty...",
+	GENERIC = "Wow! Look, it's Smugleaf!",
+	ATTACKER = "That Smugleaf looks shifty...",
 	MURDERER = "How dare you!!",
-	REVIVER = "Abel, thank you.",
-	GHOST = "Abel needs to be revived!",
+	REVIVER = "Smugleaf, thank you.",
+	GHOST = "Smugleaf needs to be revived!",
 }
 
 
